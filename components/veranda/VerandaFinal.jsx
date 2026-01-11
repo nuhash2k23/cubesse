@@ -4333,7 +4333,7 @@ const handleApplyAIConfig = (config) => {
     houseType={houseType}
   />
 </Suspense>
-<HeartPathVisualizer />
+{/* <HeartPathVisualizer /> */}
               <Suspense fallback={null}>
                 <VerandaModel 
                   roofPitchActive={roofPitchActive}
