@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
-  reactCompiler: true,
-  reactStrictMode: true,
-};
+  reactStrictMode: false,
+  webpack: (config) => {
+    config.devtool = false;
+    return config;
+  },
+}
 
 export default nextConfig;
